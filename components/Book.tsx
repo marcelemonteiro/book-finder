@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Book() {
   return (
-    <div className="md:flex md:gap-4 md:items-center p-4 mb-8 max-w-2xl bg-amber-100">
+    <div className="flex flex-col md:flex-row gap-4 md:items-center p-4 mb-8 max-w-2xl bg-amber-100">
       <Image src="/book_cover.png" width={150} height={150} alt="Book cover" />
 
       <div className="flex flex-col gap-2">
